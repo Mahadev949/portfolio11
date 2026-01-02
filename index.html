@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahadev | Software Developer</title>
+    <meta name="description" content="Portfolio of Mahadev, a student software developer focused on building logical, scalable, real-world software solutions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Mahadev</a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="section-container">
+            <div class="hero-content">
+                <h1 class="hero-name" id="hero-name">Mahadev</h1>
+                <h2 class="hero-role" id="hero-role">Student | Aspiring Software Developer</h2>
+                <p class="hero-tagline" id="hero-tagline">Building logical, scalable, real-world software solutions.</p>
+                <div class="btn-container">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#" class="btn btn-secondary" id="resume-btn">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-snippet">
+                    <pre><code class="language-java">
+// Building scalable solutions
+public class Developer {
+    private String name = "Mahadev";
+    private String focus = "Clean Architecture";
+    
+    public void buildProject(Project p) {
+        p.implement();
+        p.test();
+        p.deploy();
+    }
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content" id="about-content">
+                <!-- Content loaded from JSON -->
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="projects-count">0</div>
+                    <div class="stat-label">Projects Built</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="tech-count">0</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="impact-count">50+</div>
+                    <div class="stat-label">Users Impacted</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-dark">
+        <div class="section-container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container" id="skills-container">
+                <!-- Content loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Content loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="section section-dark">
+        <div class="section-container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline-container" id="timeline">
+                <!-- Content loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Name</h4>
+                            <p id="contact-name">Mahadev</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p id="contact-location">India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p id="contact-email">polanamahadev@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links" id="social-links">
+                        <!-- Social links loaded from JSON -->
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required   name="from_name"
+>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required   name="from_email"
+>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required   name="message"
+></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; <span id="current-year"></span> Mahadev. All rights reserved.</p>
+            <p class="copyright">Built with focus and clean code.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal (Hidden by default) -->
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="project-modal" id="project-modal">
+        <div class="modal-header">
+            <h2 class="modal-title" id="modal-title"></h2>
+            <button class="modal-close" id="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="modal-body" id="modal-body">
+            <!-- Modal content loaded dynamically -->
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init("tVX8r_E8Fj5854w7f");
+  })();
+</script>
+
+    <script src="script.js"></script>
+</body>
+</html>
