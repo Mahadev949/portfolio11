@@ -499,22 +499,26 @@ function setupEventListeners() {
     });
     
     // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            if (this.getAttribute('href') === '#') return;
-            
-            e.preventDefault();
-            const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
-            
-            if (targetElement) {
-                window.scrollTo({
-                    top: targetElement.offsetTop - 80,
-                    behavior: 'smooth'
-                });
-            }
-        });
+// Smooth scroll ONLY for internal section links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    const href = this.getAttribute('href');
+
+    // Ignore empty or invalid hashes
+    if (!href || href === '#') return;
+
+    const targetElement = document.querySelector(href);
+    if (!targetElement) return;
+
+    e.preventDefault();
+
+    window.scrollTo({
+      top: targetElement.offsetTop - 80,
+      behavior: 'smooth'
     });
+  });
+});
+
     
     // Contact form submission
 // Contact form submission (EmailJS)
@@ -561,4 +565,5 @@ function updateActiveNavLink() {
             link.classList.add('active');
         }
     });
+
 }
