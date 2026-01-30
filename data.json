@@ -69,7 +69,7 @@
     },
     {
       "title": "Tic Tac Toe Game",
-      "type": "Desktop Application & Web Application",
+      "type": "Desktop & Web Application",
       "tech": ["Python", "Java"],
       "description": "A two-player interactive Tic Tac Toe game implemented for both desktop and web environments.",
       "features": [
@@ -131,5 +131,6 @@
   }
 
 }
+
 
 
