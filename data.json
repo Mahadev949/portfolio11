@@ -13,12 +13,12 @@
 
   "skills": {
     "Programming Languages": ["Java", "Python", "JavaScript"],
-    "Frontend": ["HTML", "CSS", "Basic React"],
+    "Frontend": ["HTML", "CSS", "React(Basics)"],
     "Backend": ["Spring Boot(Basic)"],
     "Mobile": [ "Android Studio"],
-    "Databases": ["MySQL", "Firebase Firestore", "Supabase"],
+    "Databases": ["MySQL", "Firebase Firestore(Basics)", "Supabase(Basics)"],
     "Concepts": ["OOP",  "DSA Basics"],
-    "Tools": ["GitHub", "VS Code", "Android Studio","Pycharm","Cursor"]
+    "Tools": ["GitHub", "VS Code", "Android Studio","Pycharm","Cursor","AntiGravity"]
   },
 
   "projects": [
@@ -131,4 +131,5 @@
   }
 
 }
+
 
