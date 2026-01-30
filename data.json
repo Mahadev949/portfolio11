@@ -14,7 +14,7 @@
   "skills": {
     "Programming Languages": ["Java", "Python", "JavaScript"],
     "Frontend": ["HTML", "CSS", "Basic React"],
-    "Backend": ["Node.js (Basic)"],
+    "Backend": ["Spring Boot(Basic)"],
     "Mobile": [ "Android Studio"],
     "Databases": ["MySQL", "Firebase Firestore", "Supabase"],
     "Concepts": ["OOP",  "DSA Basics"],
@@ -98,18 +98,13 @@
       "location": "Machilipatnam, Andhra Pradesh",
       "duration": "2022 – Present",
       "points": [
-        "Designed and developed full-stack applications using Java, Python, JavaScript, React.js, and Firebase",
-        "Built production-like Android applications with separate student and faculty roles for real-world usage",
-        "Implemented complex timetable scheduling logic including lab span continuity, lunch-break constraints, and multi-faculty subject mapping",
-        "Developed REST-style data flows and role-based access control for admin, faculty, and student users",
-        "Designed scalable data models in Firebase and optimized read/write operations for large datasets",
-        "Implemented persistent local storage, JSON import/export, and real-time data synchronization",
-        "Applied problem-solving and algorithmic thinking to handle conflict detection and validation rules",
-        "Improved application performance and usability through progressive data loading techniques",
-        "Tested applications with real users (50+ students), collected feedback, and iteratively refined features",
-        "Maintained clean, modular, and reusable code following object-oriented principles",
-        "Used Git and GitHub for version control and incremental feature development",
-        "Actively participated in hackathons and coding competitions, applying time-bound problem-solving skills"
+"Designed and developed full-stack and Android applications using Java, Python, JavaScript, React.js, and Firebase",
+"Implemented role-based access, REST-style data flows, and scalable Firebase data models",
+"Built complex timetable scheduling logic with conflict detection, lab continuity, and constraint validation",
+"Enabled real-time synchronization, local storage, and JSON import/export for persistent data handling",
+"Optimized performance and usability through efficient data loading and modular OOP-based code design",
+"Tested with 50+ users, iteratively refined features, and used Git/GitHub for version control"
+
       ]
     }
   ],
@@ -136,3 +131,4 @@
   }
 
 }
+
