@@ -110,18 +110,25 @@
   ],
 
   "education": [
-    {
-      "degree": "B.Tech",
-      "field": "Computer Science & Engineering",
-      "institution": "Indian Institute of Technology",
-      "duration": "2022 – 2026"
-    },
-    {
-      "degree": "Higher Secondary",
-      "field": "Science (PCM)",
-      "institution": "Delhi Public School",
-      "duration": "2020 – 2022"
-    }
+   {
+  "degree": "B.Tech",
+  "field": "Computer Science & Engineering",
+  "institution": "Sri Vasavi Institute of Engineering and Technology",
+  "duration": "2022 – 2026"
+},
+{
+  "degree": "Higher Secondary (Intermediate)",
+  "field": "Science (PCM)",
+  "institution": "Vijaya Junior College",
+  "duration": "2020 – 2022"
+},
+{
+  "degree": "Secondary School (10th / SSC)",
+  "field": "General",
+  "institution": "Nagarjuna Public School",
+  "duration": "2019 – 2020"
+}
+
   ],
 
   "socials": {
@@ -131,6 +138,7 @@
   }
 
 }
+
 
 
 
